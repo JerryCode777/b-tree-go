@@ -2,23 +2,23 @@ package main
 
 import (
 	"fmt"
-	"github.com/jerryandersonh/b-tree-go/arbol"
+	"github.com/JerryCode777/b-tree-go/arbol"
 )
 
 
 func main(){
 	raiz := arbol.NuevaRaiz(10)
 
-	raiz.insertar(5)
-	raiz.insertar(12)
-	raiz.insertar(13)
-	raiz.insertar(12)
-	raiz.insertar(2)
-	raiz.insertar(9)
-	raiz.insertar(15)
+	raiz.Insertar(5)
+	raiz.Insertar(12)
+	raiz.Insertar(13)
+	raiz.Insertar(12)
+	raiz.Insertar(2)
+	raiz.Insertar(9)
+	raiz.Insertar(15)
 
 	//mostrar recorrido en inorden
 	fmt.Print("Recorrido inorder: ")
-	raiz.inOrden()
+	raiz.InOrden()
 	fmt.Println()
 }
